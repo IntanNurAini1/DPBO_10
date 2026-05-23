@@ -15,7 +15,7 @@ public class HappyFresh {
 
         while (isRunning) {
             try {
-                System.out.println("=== Selamat Datang di HappyFresh ===");
+                System.out.println("=== Selamat Datang HappyFresh ===");
                 System.out.println("1. Register");
                 System.out.println("2. Login");
                 System.out.println("3. Keluar");
