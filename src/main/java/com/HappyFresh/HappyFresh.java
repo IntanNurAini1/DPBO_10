@@ -44,7 +44,7 @@ public class HappyFresh {
                                 DriverMenu driverMenu = new DriverMenu(driver, scanner);
                                 driverMenu.tampilkanMenuDriver();
                             }
-                            System.out.println("Anda telah logout.");
+                            System.out.println("Anda telah logout");
                         }
                     }
                     case 3 -> {
