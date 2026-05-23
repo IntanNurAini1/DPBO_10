@@ -55,7 +55,7 @@ public class DriverMenu {
                 throw new IllegalArgumentException("Saldo tidak mencukupi untuk penarikan.");
             }
 
-            driver.setSaldo(driver.getSaldo() + jumlahTarik);
+            driver.setSaldo(driver.getSaldo() - jumlahTarik);
             System.out.println("Penarikan berhasil. Saldo Anda sekarang: Rp " + driver.getSaldo());
         } catch (InputMismatchException e) {
             System.out.println("Input harus berupa angka.");
